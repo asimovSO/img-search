@@ -29,6 +29,7 @@ header {
 header .search {
   position: relative;
   width: 40%;
+  min-width: 150px;
 }
 
 header .search svg {
@@ -38,6 +39,8 @@ header .search svg {
   top: 8px;
   right: 11px;
   fill: gray;
+  padding: 2px;
+  cursor: pointer;
 }
 
 header .search input {
