@@ -14,7 +14,7 @@ input.addEventListener('keydown', e =>{
 const apiReq = () => {
 
     
-    const url = `https://api.unsplash.com/search/photos?query=${input.value}&orientation=portrait&per_page=27&page=1&client_id=pV3bWqJz8xB5L1RZlKPRZn33yJCWHZ4W5WQSH9k_SFM`;
+    const url = `https://api.unsplash.com/search/photos?query=${input.value}&orientation=portrait&per_page=27&page=1&client_id=/`;
 
     ul.innerHTML = '';
     fetch(url)
