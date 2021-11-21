@@ -26,7 +26,7 @@ const apiReq = () => {
 
 function loadImgs(data){
     for(i = 0; i < data.results.length; i++){
-        const elem = `<li><img src="${data.results[i].urls.raw}" width='390'></li>`;
+        const elem = `<li><img src="${data.results[i].urls.regular}" width='390'></li>`;
         ul.innerHTML += elem;
     }
 }
